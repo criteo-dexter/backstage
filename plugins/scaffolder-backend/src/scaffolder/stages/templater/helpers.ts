@@ -133,7 +133,7 @@ export const runDockerContainer = async ({
       // root on the host system on non Mac systems, because of reasons. Mainly the fact that
       // volume sharing is done using NFS on Mac and actual mounts in Linux world.
       // So we set the user in the container as the same user and group id as the host.
-      User: `${process.getuid()}:${process.getgid()}`,
+      // User: `${process.getuid()}:${process.getgid()}`,
       // Set the home directory inside the container as something that applications can
       // write to, otherwise they will just flop and fail trying to write to /
       Env: ['HOME=/tmp'],
