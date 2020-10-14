@@ -8,14 +8,9 @@ spec:
   targets:
     - https://github.com/criteo-dexter/garmadon/blob/master/garmadon-component.yaml
     - https://github.com/criteo-dexter/mjaillais2/blob/master/component-info.yaml
-    - https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/artist-lookup-component.yaml
-    - https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/playback-order-component.yaml
-    - https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/podcast-api-component.yaml
-    - https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/queue-proxy-component.yaml
-    - https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/searcher-component.yaml
-    - https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/playback-lib-component.yaml
-    - https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/www-artist-component.yaml
-    - https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/shuffle-api-component.yaml
-
-
+    - https://github.com/criteo-dexter/kafka-sharp/blob/master/kafka-sharp-component.yaml
+    - https://github.com/criteo-dexter/tf-yarn/blob/master/tf-yarn-component.yaml
+    - https://github.com/criteo-dexter/consul-templaterb/blob/master/consul-templaterb-component.yaml
+    - https://github.com/criteo-dexter/deepr/blob/master/deepr-component.yaml
+    - https://github.com/criteo-dexter/android-publisher-sdk/blob/master/android-publisher-sdk-component.yaml
 
