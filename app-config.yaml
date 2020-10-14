@@ -27,7 +27,7 @@ proxy:
         $env: JENKINS_BASIC_AUTH_HEADER
 
   '/travisci/api':
-    target: https://api.travis-ci.com
+    target: https://api.travis-ci.org
     changeOrigin: true
     headers:
       Authorization:
