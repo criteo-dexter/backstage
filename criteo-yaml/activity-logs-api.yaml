@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: activity-logs
+  description: Activity Logs API
+  tags:
+    - activity
+    - logs
+spec:
+  type: openapi
+  lifecycle: production
+  owner: security-team@criteo.com
+  definition:
+    $text: https://auditlogs-audit-logs-api.crto.in/swagger/v1/swagger.json
