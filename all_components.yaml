@@ -7,7 +7,7 @@ spec:
   type: github
   targets:
     - https://github.com/criteo-dexter/garmadon/blob/master/garmadon-component.yaml
-    - https://github.com/criteo-dexter/mjaillais2/blob/master/component-info.yaml
+#    - https://github.com/criteo-dexter/mjaillais2/blob/master/component-info.yaml
     - https://github.com/criteo-dexter/kafka-sharp/blob/master/kafka-sharp-component.yaml
     - https://github.com/criteo-dexter/tf-yarn/blob/master/tf-yarn-component.yaml
     - https://github.com/criteo-dexter/consul-templaterb/blob/master/consul-templaterb-component.yaml
