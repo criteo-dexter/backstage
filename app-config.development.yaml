@@ -15,10 +15,3 @@ backend:
 
 organization:
   name: Criteo
-
-proxy:
-  '/jenkins/api':
-    target: https://build.crto.in/
-    headers:
-      Authorization:
-        $env: JENKINS_BASIC_AUTH_HEADER
