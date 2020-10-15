@@ -42,7 +42,7 @@ export const colorVariants: Record<string, string[]> = {
   marineBlue: ['#006D8F', '#0049A1'],
   veryBlue: ['#0027AF', '#270094'],
   rubyRed: ['#98002B', '#8D1134'],
-  toastyOrange: ['#BE2200', '#A41D00'],
+  toastyOrange: ['#E26B38', '#Ef8C34'],
   purpleSky: ['#8912CA', '#3E00EA'],
   eveningSea: ['#00FFF2', '#035355'],
   teal: ['#005B4B'],
@@ -50,13 +50,13 @@ export const colorVariants: Record<string, string[]> = {
 };
 
 export const pageTheme: Record<string, PageTheme> = {
-  home: genTheme(colorVariants.teal, shapes.wave),
-  documentation: genTheme(colorVariants.pinkSea, shapes.wave2),
-  tool: genTheme(colorVariants.purpleSky, shapes.round),
-  service: genTheme(colorVariants.marineBlue, shapes.wave),
-  website: genTheme(colorVariants.veryBlue, shapes.wave),
-  library: genTheme(colorVariants.rubyRed, shapes.wave),
-  other: genTheme(colorVariants.darkGrey, shapes.wave),
+  home: genTheme(colorVariants.toastyOrange, shapes.wave),
+  documentation: genTheme(colorVariants.toastyOrange, shapes.wave2),
+  tool: genTheme(colorVariants.toastyOrange, shapes.round),
+  service: genTheme(colorVariants.toastyOrange, shapes.wave),
+  website: genTheme(colorVariants.toastyOrange, shapes.wave),
+  library: genTheme(colorVariants.toastyOrange, shapes.wave),
+  other: genTheme(colorVariants.toastyOrange, shapes.wave),
   app: genTheme(colorVariants.toastyOrange, shapes.wave),
 };
 
