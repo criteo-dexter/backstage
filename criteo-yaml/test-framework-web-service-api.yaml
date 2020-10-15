@@ -6,8 +6,7 @@ metadata:
   tags:
     - test
     - framework
-    - web
-    - service
+    - web-service
 spec:
   type: openapi
   lifecycle: production
