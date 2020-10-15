@@ -8,7 +8,7 @@ metadata:
     - web-service
 spec:
   type: openapi
-  lifecycle: production
+  lifecycle: experimental
   owner: prediction-team@criteo.com
   definition:
     $text: https://prediction-webservice.crto.in/api-swagger/model
