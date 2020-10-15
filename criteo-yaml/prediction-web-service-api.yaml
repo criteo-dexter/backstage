@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: prediction-web-service
+  description: Prediction Web Service API
+  tags:
+    - prediction
+    - web-service
+spec:
+  type: openapi
+  lifecycle: production
+  owner: prediction-team@criteo.com
+  definition:
+    $text: https://prediction-webservice.crto.in/api-swagger/model
