@@ -73,14 +73,14 @@ const CICDSwitcher = ({ entity }: { entity: Entity }) => {
   switch (true) {
     case isJenkinsAvailable(entity):
       return <JenkinsRouter entity={entity} />;
+    case isTravisCIAvailable(entity):
+      return <TravisCIRouter entity={entity} />;
     case isGitHubActionsAvailable(entity):
       return <GitHubActionsRouter entity={entity} />;
     case isCircleCIAvailable(entity):
       return <CircleCIRouter entity={entity} />;
     case isCloudbuildAvailable(entity):
       return <CloudbuildRouter entity={entity} />;
-    case isTravisCIAvailable(entity):
-      return <TravisCIRouter entity={entity} />;
     default:
       return (
         <EmptyState
