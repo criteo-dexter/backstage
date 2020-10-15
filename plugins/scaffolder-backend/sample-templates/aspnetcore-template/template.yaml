@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: aspnetcore-template
+  title: ASPNET Core application
+  description: Create a simple ASPNET Core application
+  tags:
+    - experimental
+    - csharp
+spec:
+  owner: service@example.com
+  templater: cookiecutter
+  type: service
+  path: '.'
+  schema:
+    required:
+      - component_id
+      - description
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Help others understand what this service does.
