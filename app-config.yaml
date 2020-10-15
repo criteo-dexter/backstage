@@ -127,7 +127,7 @@ catalog:
       #         filter: (&(objectClass=some-group-class)(!(groupType=email)))
 
   locations:
-    # Criteo example components
+    # Criteo examples
     - type: url
       target: https://github.com/criteo-dexter/backstage/criteo-yaml/blob/master/all-components.yaml
     # Example component for techdocs
