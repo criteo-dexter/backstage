@@ -10,6 +10,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: mlpf-team@criteo.com
+  owner: mlplatform-team@criteo.com
   definition:
     $text: https://testfwk-webservice.crto.in/api-swagger/model
