@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Criteo.Api.Exam.Demo.v1.Models
+namespace {{ cookiecutter.component_id }}.v1.Models
 {
     /// <summary>
     /// Represent a single Beer

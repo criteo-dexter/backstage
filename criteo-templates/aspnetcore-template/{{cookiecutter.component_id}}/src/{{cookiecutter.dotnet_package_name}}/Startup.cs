@@ -19,7 +19,7 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using Criteo.AspNetCore.Middlewares;
 
-namespace Criteo.Api.Exam.Demo
+namespace {{ cookiecutter.component_id }}
 {
     public class Startup
     {

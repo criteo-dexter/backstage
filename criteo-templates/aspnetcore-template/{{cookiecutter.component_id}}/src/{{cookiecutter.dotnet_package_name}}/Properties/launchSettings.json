@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Criteo.Api.Exam.Demo.netcore": {
+    "{{ cookiecutter.component_id }}.netcore": {
       "commandName": "Project",
       "launchBrowser": true
     }

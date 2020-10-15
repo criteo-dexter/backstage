@@ -1,11 +1,11 @@
-using Criteo.Api.Exam.Demo.v1.Actions;
-using Criteo.Api.Exam.Demo.v1.Models;
+using {{ cookiecutter.component_id }}.v1.Actions;
+using {{ cookiecutter.component_id }}.v1.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 
-namespace Criteo.Api.Exam.Demo.v1.Controllers
+namespace {{ cookiecutter.component_id }}.v1.Controllers
 {
     /// <summary>
     /// This is an example Controller.

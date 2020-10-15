@@ -1,7 +1,7 @@
 using Criteo.AspNetCore.Helpers;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Criteo.Api.Exam.Demo
+namespace {{ cookiecutter.component_id }}
 {
     public class Program
     {

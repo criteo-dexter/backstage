@@ -1,11 +1,11 @@
-﻿using Criteo.Api.Exam.Demo.v1.Models;
+﻿using {{cookiecutter.component_id}}.v1.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Criteo.Api.Exam.Demo.v1.Actions
+namespace {{cookiecutter.component_id}}.v1.Actions
 {
     /// <summary>
     /// Represent the action to create a new Beer

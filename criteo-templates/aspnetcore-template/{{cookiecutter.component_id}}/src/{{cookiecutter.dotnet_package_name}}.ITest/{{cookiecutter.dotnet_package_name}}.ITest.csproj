@@ -28,7 +28,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="[default]" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Criteo.Api.Exam.Demo\Criteo.Api.Exam.Demo.csproj" />
+    <ProjectReference Include="..\{{ cookiecutter.component_id }}\{{ cookiecutter.component_id }}.csproj" />
   </ItemGroup>
   <Import Project="$(CBS_DIR)\MSBuild\targets\Sdk.targets" Condition="Exists('$(CBS_DIR)\MSBuild\targets\Sdk.targets')" />
 </Project>
