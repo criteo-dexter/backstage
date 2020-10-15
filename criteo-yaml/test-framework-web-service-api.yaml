@@ -9,7 +9,7 @@ metadata:
     - web-service
 spec:
   type: openapi
-  lifecycle: production
+  lifecycle: experimental
   owner: mlpf-team@criteo.com
   definition:
     $text: https://testfwk-webservice.crto.in/api-swagger/model
