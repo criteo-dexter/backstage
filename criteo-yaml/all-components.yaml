@@ -15,3 +15,6 @@ spec:
     - https://github.com/criteo-dexter/android-publisher-sdk/blob/main/android-publisher-sdk-component.yaml
     - https://github.com/criteo-dexter/criteo-python-marketing-sdk/blob/master/criteo-python-marketing-sdk-component.yaml
     - https://github.com/criteo-dexter/criteo-python-marketing-sdk/blob/master/criteo-python-marketing-sdk-api.yaml
+    - https://github.com/criteo-dexter/backstage/blob/master/criteo-yaml/mssql-admin-api.yaml
+    - https://github.com/criteo-dexter/backstage/blob/master/criteo-yaml/test-framework-web-service-api.yaml
+    - https://github.com/criteo-dexter/backstage/blob/master/criteo-yaml/prediction-web-service-api.yaml
