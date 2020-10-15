@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mssql-admin
+  description: MSSQL Admin API
+  tags:
+    - mssql
+    - admin
+spec:
+  type: openapi
+  lifecycle: production
+  owner: dba-team@criteo.com
+  definition:
+    $text: https://mssqladminapi-mssqladminapi.crto.in/swagger/v1/swagger.json
