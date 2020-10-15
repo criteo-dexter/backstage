@@ -79,7 +79,7 @@ integrations:
     #   token:
     #     $env: GHE_TOKEN
   gitlab:
-    - host: gitlab.com
+    - host: gitlab.crto.in
       token:
         $env: GITLAB_TOKEN
   bitbucket:
@@ -127,12 +127,18 @@ catalog:
       #         filter: (&(objectClass=some-group-class)(!(groupType=email)))
 
   locations:
+<<<<<<< HEAD
     # Backstage example components
 #    - type: url
 #      target: https://github.com/spotify/backstage/blob/master/packages/catalog-model/examples/all-components.yaml
     # Example component for github-actions
 #    - type: url
 #      target: https://github.com/spotify/backstage/blob/master/plugins/github-actions/examples/sample.yaml
+=======
+    # Criteo example components
+    - type: url
+      target: https://github.com/criteo-dexter/backstage/blob/master/all_components.yaml
+>>>>>>> 24fe3256... Fix gitlab and add static component
     # Example component for techdocs
 #    - type: url
 #      target: https://github.com/spotify/backstage/blob/master/plugins/techdocs-backend/examples/documented-component/documented-component.yaml
@@ -153,7 +159,7 @@ scaffolder:
     visibility: public # or 'internal' or 'private'
   gitlab:
     api:
-      baseUrl: https://gitlab.com
+      baseUrl: https://gitlab.crto.in
       token:
         $env: GITLAB_TOKEN
   azure:
