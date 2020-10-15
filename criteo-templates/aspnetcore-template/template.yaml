@@ -18,10 +18,11 @@ spec:
       - description
     properties:
       component_id:
-        title: Name
+        title: App Name
         type: string
         description: Unique name of the component
       description:
         title: Description
         type: string
         description: Help others understand what this service does.
+

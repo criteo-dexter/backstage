@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Criteo.Api.Exam.Demo.netcore": {
+      "commandName": "Project",
+      "launchBrowser": true
+    }
+  }
+}

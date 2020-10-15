@@ -1,0 +1,10 @@
+site_name: {{cookiecutter.component_id | jsonify}}
+site_description: {{cookiecutter.description | jsonify}}
+
+nav:
+  - Introduction: index.md
+
+repo_url: https://github.com/{{cookiecutter.storePath}}
+
+plugins:
+  - techdocs-core
