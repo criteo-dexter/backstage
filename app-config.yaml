@@ -129,7 +129,7 @@ catalog:
   locations:
     # Criteo examples
     - type: url
-      target: https://github.com/criteo-dexter/backstage/criteo-yaml/blob/master/all-components.yaml
+      target: https://github.com/criteo-dexter/backstage/blob/master/criteo-yaml/all-components.yaml
     # Example component for techdocs
     - type: url
       target: https://github.com/spotify/backstage/blob/master/plugins/techdocs-backend/examples/documented-component/documented-component.yaml
